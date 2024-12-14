@@ -15,23 +15,23 @@
     </ul>
     
     <script>
-        let div = document.createElement("div");
-        div.innerHTML = "<h1> hi this is mourya kumar</h1>";
+        // let div = document.createElement("div");
+        // div.innerHTML = "<h1> hi this is mourya kumar</h1>";
 
-        document.body.appendChild(div);
+        // document.body.appendChild(div);
 
-        div.id = "title";
-        console.log(div);
+        // div.id = "title";
+        // console.log(div);
 
-        let menu = document.getElementById("menu");
+        // let menu = document.getElementById("menu");
 
-        let list = document.createElement("li");
-        list.innerHTML = "list5";
+        // let list = document.createElement("li");
+        // list.innerHTML = "list5";
 
-        menu.appendChild(list);
-        menu.insertAdjacentElement("afterbegin","<li>list3</li>");
+        // menu.appendChild(list);
+        // menu.insertAdjacentElement("afterbegin","<list5");
 
-        console.log(menu);
+        // console.log(menu.innerText);
 
         // menu.textContent = "hello";
 
@@ -41,6 +41,11 @@
         
         // menu.append(list6);
 
+        let menu  = document.getElementById("menu");
+
+        let newnode = menu.cloneNode(true);
+        console.log(newnode);
+        
        
         
     </script>
