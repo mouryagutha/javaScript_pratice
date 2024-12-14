@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 20px 0;
+  }
+  
+  .users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .user-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .user-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .user-card a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
