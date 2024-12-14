@@ -43,9 +43,15 @@
 
         let menu  = document.getElementById("menu");
 
-        let newnode = menu.cloneNode(true);
-        console.log(newnode);
+        // let newnode = menu.cloneNode(true);
+        // console.log(newnode);
         
+        // menu.removeChild(menu.lastElementChild);
+
+        // menu.removeChild(menu.firstElementChild);
+
+        menu.insertBefore(newNode , menu.firstElementChild);
+
        
         
     </script>
