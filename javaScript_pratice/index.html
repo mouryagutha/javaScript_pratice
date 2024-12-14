@@ -23,24 +23,27 @@
         </p>
         <p id="mess"> message 2</p> -->
 
-        <h1>first heading</h1>
+        <!-- <h1>first heading</h1>
         <h1>second heading</h1>
         <h1>third heading</h1>
-        <h1>forth || </h1>
+        <h1>forth || </h1> -->
 
-        <p class="text"> welcome here</p>
+        <p class="first"> welcome here 1</p>
+        <p class="second"> welcome here 2</p>
+        <p class="text"> welcome here 3</p>
      </div>
 
 
      <Script>
-        let msg = document.getElementById('mess');
-        console.log(msg);
+        // let msg = document.getElementById('mess');
+        // console.log(msg);
 
-        let header = document.getElementsByTagName('h1')
-        console.log(header);
+        // let header = document.getElementsByTagName('h1')
+        // console.log(header);
 
-        let txt = document.querySelector(".text");
-        console.log(txt.parentNode);
+       let second = document.querySelector(".title");
+       console.log(second.previousElementSibling);
+       
         
      </Script>
 

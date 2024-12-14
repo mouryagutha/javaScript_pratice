@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="menu">
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+    </ul>
+    
+    <script>
+        let div = document.createElement("div");
+        div.innerHTML = "<h1> hi this is mourya kumar</h1>";
+
+        document.body.appendChild(div);
+
+        div.id = "title";
+        console.log(div);
+
+        let menu = document.getElementById("menu");
+
+        let list = document.createElement("li");
+        list.innerHTML = "list5";
+
+        menu.appendChild(list);
+        menu.insertAdjacentElement("afterbegin","<li>list3</li>");
+
+        console.log(menu);
+
+        // menu.textContent = "hello";
+
+        // menu.innerHTML = "<h1>hello 2</h1>"
+
+        // menu.after("list6");
+        
+        // menu.append(list6);
+
+       
+        
+    </script>
+</body>
+</html>
