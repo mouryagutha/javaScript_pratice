@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-DO list app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1>TO DO list</h1>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2> TO-DO list <img src="images/img.jpeg"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Enter task">
+                <button onclick="addtask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked"> task 1</li>
+                <li> task 2</li>
+                <li> task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="Script.js"></script>
 </body>
 </html>
